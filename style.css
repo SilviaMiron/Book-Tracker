@@ -1,0 +1,88 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Layout */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0e7d8; 
+    color: #4b3c31; 
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 2em;
+    background-color: #f5f1e1; 
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+}
+
+form input {
+    padding: 0.5em;
+    margin: 0.5em 0;
+    border: 1px solid #d0b4a1; 
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+form button {
+    background-color: #b48b6c; 
+    color: white;
+    border: none;
+    padding: 0.8em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #9a7b5f; 
+}
+
+/* Books List Section */
+#bookList {
+    margin-top: 2em;
+    text-align: left;
+}
+
+.book {
+    background-color: #e9d8b3; 
+    margin: 0.5em 0;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.book h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.book p {
+    font-size: 1em;
+    color: #4b3c31;
+}
+
+/* Section Titles */
+h1, h2 {
+    color: #8c6f49; 
+}
+
+#booksContainer {
+    margin-top: 2em;
+}
+
